@@ -33,7 +33,7 @@ data.each do |attribute, value|
 if value == "favorite_ice_cream_flavors"
   [:favorite_ice_cream_flavors]-"strawberry"
     
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-["strawberry"]
+  contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
 end
 end
 end
