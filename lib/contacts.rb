@@ -35,5 +35,5 @@ if value == "favorite_ice_cream_flavors"
 end
 end
 end
-
+remove_strawberry
 end
