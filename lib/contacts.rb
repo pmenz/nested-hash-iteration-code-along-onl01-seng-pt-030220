@@ -30,4 +30,5 @@ contacts = {
 
 stra=["strawberry"]
 contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-stra
+contacts
 end
