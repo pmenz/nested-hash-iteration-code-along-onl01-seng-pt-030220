@@ -31,4 +31,5 @@ contacts = {
 stra=["strawberry"]
 b=contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-stra
 contacts["Freddy Mercury"][:favorite_ice_cream_flavors]=b
+puts contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
 end
