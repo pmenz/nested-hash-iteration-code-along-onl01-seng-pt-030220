@@ -29,6 +29,6 @@ contacts = {
 }
 
 stra=["strawberry"]
-contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-stra
-puts contacts
+b=contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-stra
+puts b
 end
