@@ -31,7 +31,8 @@ contacts = {
 contacts.each do |person, data| 
 data.each do |attribute, value|
 if value == "favorite_ice_cream_flavors"
-  value.each do 
+  value.each do |flavor|
+    
   contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-["strawberry"]
 end
 end
