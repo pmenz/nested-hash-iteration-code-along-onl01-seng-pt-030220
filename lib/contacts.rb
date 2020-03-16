@@ -28,8 +28,14 @@ contacts = {
   }
 }
 
-stra=["strawberry"]
-b=contacts["Freddy Mercury"][:favorite_ice_cream_flavors]-stra
-contacts["Freddy Mercury"][:favorite_ice_cream_flavors]=b
-puts contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
+contacts.each do |person, contact_details_hash|
+    if person == "Freddy Mercury"
+      contact_details_hash.each do |attribute, data|
+        if attribute == :favorite_ice_cream_flavors
+          data.delete_if {|ice_cream| ice_cream == "strawberry"}
+        end
+      end
+    end
+  end
+end
 end
